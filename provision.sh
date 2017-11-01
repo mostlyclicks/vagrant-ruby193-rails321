@@ -23,8 +23,8 @@ curl -sSL https://get.rvm.io | bash -s stable
 source /usr/local/rvm/scripts/rvm
 echo "source /usr/local/rvm/scripts/rvm" >> ~/.bashrc
 
-rvm install 1.9.3-p4.8.4
-rvm use 1.9.3-p4.8.4 --default
+rvm install 1.9.3-p484
+rvm use 1.9.3-p484 --default
 
 echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 
